@@ -1,0 +1,25 @@
+.seats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+}
+.screen{
+  height: 60px;
+  width: 200px;
+  background-color: grey;
+}
+.screen-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

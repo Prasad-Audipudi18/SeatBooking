@@ -1,0 +1,18 @@
+.booked-seat{
+    color: grey;
+}
+.premium-seat{
+    font-size: 24px;
+}
+.non-premium-seat{
+    font-size: 20px;
+}
+.seat-selected{
+    color: green;
+}
+li.non-premium-seat:nth-last-child(2){
+    margin-left: 30px;
+}
+li.non-premium-seat:nth-child(2){
+    margin-right: 30px;
+}
